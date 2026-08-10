@@ -1,29 +1,300 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>SJ64 Studios</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#062c25;
+    font-family:Arial, sans-serif;
+    color:#f2e8d5;
+    line-height:1.7;
+    padding:20px 16px;
+}
+
+/* Main Header */
+.header{
+    text-align:center;
+    padding:25px 15px 30px;
+    margin-bottom:18px;
+}
+
+.header-icon{
+    font-size:42px;
+    color:#21c7a8;
+    margin-bottom:8px;
+}
+
+h1{
+    font-size:30px;
+    color:#f4ead8;
+    margin-bottom:5px;
+}
+
+.subtitle{
+    color:#b8b0a1;
+    font-size:14px;
+}
+
+/* Cards */
+.card{
+    background:#0d382f;
+    border:1px solid rgba(42,190,160,.28);
+    border-radius:22px;
+    padding:24px 22px;
+    margin-bottom:18px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.card-title{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    color:#20c5a5;
+    font-size:21px;
+    font-weight:bold;
+    margin-bottom:18px;
+}
+
+.icon{
+    font-size:27px;
+    color:#20c5a5;
+}
+
+p{
+    color:#e6ddcc;
+    font-size:16px;
+    margin-bottom:12px;
+}
+
+ul{
+    padding-left:24px;
+    margin-top:5px;
+}
+
+li{
+    color:#e6ddcc;
+    font-size:16px;
+    margin-bottom:12px;
+}
+
+.app-name{
+    color:#20c5a5;
+    font-weight:bold;
+}
+
+/* Contact */
+.contact{
+    text-align:center;
+}
+
+.email{
+    color:#20c5a5;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* Quote */
+.quote{
+    border-top:1px solid rgba(42,190,160,.25);
+    margin-top:22px;
+    padding-top:18px;
+    text-align:center;
+    color:#c8c0b0;
+    font-size:14px;
+}
+
+/* Footer */
+.footer{
+    text-align:center;
+    color:#8f9c96;
+    font-size:12px;
+    padding:10px 0 20px;
+}
+
+/* Mobile */
+@media(max-width:480px){
+
+    body{
+        padding:12px;
+    }
+
+    .header{
+        padding:20px 10px 25px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+    .card{
+        padding:21px 18px;
+        border-radius:20px;
+    }
+
+    .card-title{
+        font-size:19px;
+    }
+
+    p, li{
+        font-size:15px;
+    }
+}
+</style>
 </head>
+
 <body>
 
-<h1>SJ64 Studios</h1>
+<!-- Header -->
+<div class="header">
 
-<p>Official developer website for SJ64 Studios apps.</p>
+    <div class="header-icon">✦</div>
 
-<h2>Our Apps</h2>
+    <h1>SJ64 Studios</h1>
 
-<ul>
-<li>Easy Group Join – WA & TG</li>
-<li>Smart Group Join</li>
-<li>Smart Calculation</li>
-<li>Noor Quran</li>
-<li>Groupora</li>
-</ul>
+    <div class="subtitle">
+        Official Developer Website
+    </div>
 
-<p>
-We create simple and useful Android applications for communication, tools, and Islamic content.
-</p>
+</div>
 
-<p>Contact: easygroupjoin@gmail.com</p>
+
+<!-- About -->
+<div class="card">
+
+    <div class="card-title">
+        <span class="icon">🛡</span>
+        About SJ64 Studios
+    </div>
+
+    <p>
+        SJ64 Studios is an independent Android app developer focused on
+        creating simple, useful, and user-friendly applications.
+    </p>
+
+    <p>
+        We develop apps for communication, productivity, everyday tools,
+        and Islamic content.
+    </p>
+
+</div>
+
+
+<!-- Our Apps -->
+<div class="card">
+
+    <div class="card-title">
+        <span class="icon">▣</span>
+        Our Apps
+    </div>
+
+    <ul>
+
+        <li>
+            <span class="app-name">
+                Easy Group Join – WA & TG
+            </span>
+            <br>
+            Discover and join useful WhatsApp and Telegram groups.
+        </li>
+
+        <li>
+            <span class="app-name">
+                Smart Group Join
+            </span>
+            <br>
+            Find and discover groups in a simple way.
+        </li>
+
+        <li>
+            <span class="app-name">
+                Smart Calculation
+            </span>
+            <br>
+            Simple and useful calculation tools for everyday use.
+        </li>
+
+        <li>
+            <span class="app-name">
+                Noor Quran
+            </span>
+            <br>
+            An Islamic application providing Quran and related content.
+        </li>
+
+        <li>
+            <span class="app-name">
+                Groupora
+            </span>
+            <br>
+            A modern platform designed for private communities and groups.
+        </li>
+
+    </ul>
+
+</div>
+
+
+<!-- Our Mission -->
+<div class="card">
+
+    <div class="card-title">
+        <span class="icon">♡</span>
+        What We Do
+    </div>
+
+    <p>
+        We create simple and useful Android applications designed to
+        provide practical solutions and a better user experience.
+    </p>
+
+    <p>
+        Our apps cover communication, useful tools, community features,
+        and Islamic content.
+    </p>
+
+    <div class="quote">
+        Simple ideas. Useful apps. Better experiences.
+    </div>
+
+</div>
+
+
+<!-- Contact -->
+<div class="card contact">
+
+    <div class="card-title" style="justify-content:center;">
+        <span class="icon">✉</span>
+        Contact Us
+    </div>
+
+    <p>
+        For questions, feedback, or business inquiries:
+    </p>
+
+    <p>
+        <a class="email"
+           href="mailto:easygroupjoin@gmail.com">
+           easygroupjoin@gmail.com
+        </a>
+    </p>
+
+</div>
+
+
+<!-- Footer -->
+<div class="footer">
+    © 2026 SJ64 Studios. All rights reserved.
+</div>
 
 </body>
 </html>
